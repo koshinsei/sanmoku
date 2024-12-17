@@ -1,0 +1,58 @@
+
+.game-board{
+  margin:10px auto;
+  user-select: none;
+  outline: none;
+
+}
+ td{
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  user-select: none;  
+}
+
+ td:hover{
+  caret-color: rgba(0,0,0,0);
+}
+
+.message{
+max-width: 1040px;
+margin: 50px auto 0 auto;
+text-align: center;
+}
+.maru{
+  background: no-repeat center/80% url(../images/circle-regular.svg);
+}
+
+.success{
+  background: no-repeat center/100% url(../images/success-usagi.png);
+}
+
+.batu{
+  background: no-repeat center/80% url(../images/xmark-solid.svg);
+}
+
+.none{
+	display: none;
+}
+
+.replay {
+	display: block;
+	margin: 20px auto;
+	border: 1px solid #747474;
+	border-radius: 50px;
+	background: #000;
+	padding: 15px 20px;	color: #d8d8d8;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.result-table td{
+	background-color: whitesmoke;
+	height: 20px;
+}
+
+.result-table{
+	margin: 30px auto 0 auto;
+}
