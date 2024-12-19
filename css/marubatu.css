@@ -31,6 +31,7 @@ text-align: center;
 
 .batu{
   background: no-repeat center/80% url(../images/xmark-solid.svg);
+  transition : 0.3s;
 }
 
 .none{
